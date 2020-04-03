@@ -1,0 +1,71 @@
+<!doctype HTML>
+<html lang="en">
+    <head>
+        <meta name="description" content="PiggyVest">
+        <meta name="viewport" content="width=device-width">
+        <title>PiggyVest SignUp</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="root">
+            <div class="Initial icon-display icon flex-col flex">
+                <a href="https://www.piggyvest.com">
+                    <img class="logo" src="piggyvest-logo.0b78a8fa-1.svg" alt="PiggyVest Logo">
+                </a>
+                
+                <div class="form-class flex flex-col">        
+                    <header class="Login-statement">
+                        <h1 class="Login">Create a Secure Account </h1>
+                        <p class="statement">Welcome to the future of savings &amp; Investments</p>
+                    </header>
+                    <form>
+                        <div class="step-1 flex-col flex">
+                            <label class="label">Full Name</label>
+                            <input type="text" id="name" name="full_name" placeholder="Full Name">
+                        </div>
+                        
+                        <div class="step-2 flex flex-col">
+                            <label class="label">Email Address</label>
+                            <input type="email" id="email" name="email_address" placeholder="Email Address">
+                        </div>
+                        
+                        <div class="step-3 flex flex-col">
+                            <label class="label">Phone Number</label>
+                            <input type="number" id="number" name="phone_number" placeholder="Phone Number">
+                        </div>
+                        
+                        <div class="step-4 flex flex-col">
+                            <label class="label">Password</label>
+                            <input type="password" id="pass" name="pass_word" placeholder="Password">
+                        </div>
+                        
+                        <div class="step-5 flex flex-col">
+                            <label class="label">Referrer Phone or Promo Code (Optional)</label>
+                            <input type="text" id="code" name="promo_code" placeholder="Referrer Phone Or Code">
+                        </div>
+                        
+                        <div class="step-6 flex flex-col">
+                            <label class="label">How Did You Hear About Us?(Optional)</label>
+                            <select id="info" name="information" >
+                                <option value="click_to_select">Click To Select</option>
+                                <option value="twitter">Twitter</option>
+                                <option value="instagram">Instagram</option>
+                                <option value="facebook">Facebook</option>
+                                <option value="friend_family_coworker">Friend/Family/Coworker Referral</option>
+                                <option value="google_search">Google search</option>
+                                <option value="google_playstore">Google playstore</option>
+                                <option value="online_blog">Online Blog</option>
+                                <option value="local_newspaper">Local Newspaper</option>
+                                <option value="at_an_event">At an event</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <button class="selector" type="submit" flex flex-col>Create Account</button>
+                    </form>
+                </div>
+                <a class="first-footer" href="#">Already have an account? Log in</a>
+            </div>
+        </div>
+    </body>
+</html>

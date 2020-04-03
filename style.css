@@ -1,0 +1,185 @@
+* {
+    box-sizing:border-box;
+}
+
+/* ------------------- 
+      Web Font 
+---------------------- */
+@font-face {
+    font-family: 'baloo-thambi';
+    src: url('baloo-thambi/BalooThambi2-Regular.ttf');
+}
+
+body {
+    margin: 0px;
+}
+html {
+    line-height: 1.5;
+}
+
+#root {
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #062863;
+}
+
+.Initial {
+    align-items: center;
+    overflow: auto;
+    min-height: 100%;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+.flex {
+    display: flex;
+}
+
+.logo {
+    vertical-align: middle;
+    display: block;
+    border-style: 0 solid #e2e8f0;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+/* ------------------- 
+    Icons Layout 
+---------------------- */
+
+.icon-display {
+    background-repeat: no-repeat;
+    background-size: 15%;
+}
+
+.icon {
+    background-image: url(icons/3.png),
+                      url(icons/1.png),
+                      url(icons/2.png),
+                      url(icons/last.png);
+    background-position:bottom -8% left -5%,
+                        top -15% left -1%,
+                        top 2% right -8%,
+                        bottom -2.5% right -6%;
+}
+
+
+
+/* ------------------- 
+    Form Layout 
+---------------------- */
+
+.form-class {
+    background-color: #fff;
+    padding-bottom: 3rem;
+    padding: 2.5rem;
+    width: 91.6%;
+    max-width: 28rem;
+    border-radius: 1.25rem 1.25rem 1.25rem 0;
+}
+
+.Login-statement {
+    align-items: center;
+    margin-bottom: 2rem;
+    line-height: 1.6rem;
+}
+
+.Login {
+    font-family: 'baloo-thambi',sans-serif,serif;
+    font-size: 1.5rem;
+    color: #083e9e;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 0.2rem;
+}
+
+.statement {
+    font-family: 'baloo-thambi',sans-serif,serif;
+    font-size: 0.87rem;
+    color: #4a5568;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* ----------------------------------- 
+    Label, Input and select Layout
+-------------------------------------- */
+
+.step-1,
+.step-2,
+.step-3,
+.step-4, 
+.step-5,
+.step-6 {
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.label {
+    font-size: 1rem;
+    font-family: 'baloo-thambi',sans-serif,serif;
+    color: #4a5568;
+    margin-bottom: 0.2rem;
+    line-height: 2;
+    font-weight: 700;
+}
+
+input,
+select {
+    font-family: 'baloo-thambi',sans-serif,serif;
+    background-color: #edf2f7;
+    padding:1rem;
+    color: #1a202c;
+    border-radius: 0.25rem; 
+    border-style: none;
+}
+
+option {
+    font-family: 'baloo-thambi',sans-serif,serif;
+}
+
+/* ------------------------ 
+    Button Layout
+--------------------------- */
+
+.selector {
+    font-family: 'baloo-thambi',sans-serif,serif;
+    background-color: #0d60d8;
+    color: #fff;
+    width: 100%;
+    padding: 1.25rem 2.5rem 1rem 2.5rem;
+    text-transform: uppercase;
+    flex-direction: row;
+    margin-top: .3rem;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.75rem 0.75rem 0.75rem 0;
+    border: 0;
+}
+
+.selector:hover {
+    background-color: #083e9e;
+    cursor: pointer;    
+}
+
+/* ------------------------ 
+    footer Layout
+--------------------------- */
+.first-footer {
+    font-family: 'baloo-thambi',sans-serif,serif;
+    color: #fff;
+    padding-top: 2rem;
+    margin-bottom: 2.5rem;
+    text-decoration: none;
+}
+
+.first-footer:hover {
+    color: #4a5568;
+}
